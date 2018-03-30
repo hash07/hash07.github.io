@@ -187,7 +187,8 @@ a:focus {
 }
 .download-section {
   width: 100%;
-  padding: 50px 0;
+  padding-top: 50px;
+  padding-bottom: 200px;
   color: #FF1744;
   background-color: #06000a;
   -webkit-background-size: cover;
