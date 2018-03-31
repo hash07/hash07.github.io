@@ -196,13 +196,19 @@ a:focus {
 .download-section {
   width: 100%;
   padding-top: 50px;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
   color: #FF1744;
   background-color: #06000a;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+
+@media (max-width: 768px) {
+  .download-section {
+  padding-bottom: 20%;
+  }
 }
 
 .btn {
