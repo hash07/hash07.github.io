@@ -141,6 +141,43 @@ a:focus {
   background-size: cover;
   -o-background-size: cover;
 }
+
+.info{
+  padding: 0 30px;
+  color: #ffffff;
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
+}
+
+@media (max-width: 480px) {
+  .info{
+  font-size: 19px;
+  padding: 0 15px;
+  }
+}
+
+.fa {
+    padding: 25px;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: none;
+    margin: 30px 5px 0 2px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    border: 1px solid #42DCA3;
+}
+
+@media (max-width: 480px) {
+  .fa{
+  font-size: 16px;
+  margin: 30px 2px 0 2px;
+  }
+}
+
 .intro .intro-body {
   display: table-cell;
   vertical-align: middle;
@@ -163,6 +200,8 @@ a:focus {
 .intro .intro-body .intro-text {
   padding-top: 50px;
   font-size: 18px;
+  font-family: 'Mina', sans-serif;
+
 }
 @media (min-width: 768px) {
   .intro {
