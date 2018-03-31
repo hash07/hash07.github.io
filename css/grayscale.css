@@ -185,8 +185,6 @@ a:focus {
 .intro .intro-body .brand-heading {
   display: inline-block;
   position: relative;
-  width: 200px;
-  height: 200px;
   overflow: hidden;
   border-radius: 50%;
 }
