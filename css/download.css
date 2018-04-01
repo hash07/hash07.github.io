@@ -1,0 +1,246 @@
+/*!
+ * Start Bootstrap - Grayscale v3.3.7+1 (http://startbootstrap.com/template-overviews/grayscale)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'IBM Plex Mono', monospace;
+  color: #FF1744;
+  background-color: #06000a;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+p {
+  margin: 0 0 25px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+@media (min-width: 768px) {
+  p {
+    margin: 0 0 35px;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+}
+.light {
+  font-weight: 400;
+  color: white;
+}
+
+.navbar{
+  border: 0px;
+}
+
+.dir{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.dir p {
+  margin: 0 0;
+  color: #42DCA3;
+  font-size: 15px;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+@media (min-width: 768px) {
+  .dir {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .dir {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .dir {
+    width: 1170px;
+  }
+}
+
+.navbar-custom {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #000000;
+  background: linear-gradient(to bottom, rgba(255,0,0,1), rgba(0,0,0), rgba(0,0,0), rgba(0,0,0), rgba(0,0,0));
+}
+
+.navbar-custom .navbar-brand {
+  font-weight: 700;
+}
+.navbar-custom .navbar-brand:focus {
+  outline: none;
+}
+.navbar-custom a {
+  color: #FF1744;
+}
+
+.navbar-custom .dir a {
+  color: #42DCA3;
+  font-size: 15px;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+
+@media (min-width: 768px) {
+  .navbar-custom {
+    padding: 20px 0;
+    border-bottom: none;
+    letter-spacing: 1px;
+    background: transparent;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+  .navbar-custom.top-nav-collapse {
+    padding: 0;
+    background: #000000;
+    background: linear-gradient(to bottom, rgba(255,0,0,1), rgba(0,0,0), rgba(0,0,0), rgba(0,0,0));	
+  }
+}
+
+.page-scroll {
+  font-weight: 400;
+}
+
+.intro {
+  display: table;
+  width: 100%;
+  height: auto;
+  padding: 100px 0 0 0;
+  text-align: center;
+  color: #FF1744;
+  background-color: #06000a;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.fa {
+  padding: 25px;
+  font-size: 19px;
+  text-align: center;
+  text-decoration: none;
+  margin: 30px 5px 0 2px;
+  border-radius: 50%;
+  color: #42DCA3;
+  border: 1px solid #000000;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  color: #42DCA3;
+  border: 1px solid #42DCA3;
+  text-decoration: none;
+}
+
+.fa-angle-double-right{
+  padding: 5px 5px;
+  font-size: 19px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0;
+}
+
+.fa-circle-o {
+  color:#6200ea
+}
+
+.fa-circle-o:hover {
+  border: 1px solid #000000;
+  color:#6200ea
+}
+.fa-angle-double-right:hover{
+  border: 1px solid #000000;
+}
+
+@media (max-width: 480px) {
+  .fa{
+  font-size: 16px;
+  margin: 30px 2px 0 2px;
+  }
+}
+
+.intro .intro-body {
+  display: table-cell;
+  vertical-align: top;
+}
+.intro .intro-body .brand-heading {
+  padding-top: 20px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: 'IBM Plex Mono', monospace;
+  letter-spacing: 1px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+   margin-bottom: 10px;
+}
+
+.section-title-divider {
+  width: 80px;
+  height: 2px;
+  background: #fff;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.download-section {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 150px;
+  color: #FF1744;
+  background-color: #06000a;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.download-section a {
+  color: #42DCA3;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .download-section {
+  padding-bottom: 20%;
+  }
+}
+
+footer {
+  padding: 50px 0;
+    background: #000000;
+    background: linear-gradient(to bottom, rgba(255,0,0,0), rgba(255,0,0,0), rgba(255,0,0,0), rgba(255,0,0,.3));
+}
+footer p {
+  margin: 0;
+}
+::-moz-selection {
+  text-shadow: none;
+  background: #fcfcfc;
+  background: rgba(255, 255, 255, 0.2);
+}
+::selection {
+  text-shadow: none;
+  background: #fcfcfc;
+  background: rgba(255, 255, 255, 0.2);
+}
+img::selection {
+  background: transparent;
+}
+img::-moz-selection {
+  background: transparent;
+}
+body {
+  webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+}
