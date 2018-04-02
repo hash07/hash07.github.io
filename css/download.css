@@ -43,7 +43,6 @@ p {
 }
 
 .dir p {
-  margin: 0 0;
   color: #42DCA3;
   font-size: 15px;
   font-family: 'IBM Plex Mono', monospace;
@@ -85,7 +84,7 @@ p {
 
 .navbar-custom .dir a {
   color: #42DCA3;
-  font-size: 15px;
+  font-size: 12px;
   font-family: 'IBM Plex Mono', monospace;
 }
 
@@ -104,6 +103,18 @@ p {
     padding: 0;
     background: #000000;
     background: linear-gradient(to bottom, rgba(255,0,0,1), rgba(0,0,0), rgba(0,0,0), rgba(0,0,0));	
+  }
+  .navbar-custom .dir a {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-custom .navbar-brand {
+    font-size: 15px;
+  }
+  .dir p {
+    font-size: 12px;
   }
 }
 
@@ -133,7 +144,7 @@ p {
   margin: 30px 5px 0 2px;
   border-radius: 50%;
   color: #42DCA3;
-  border: 1px solid #000000;
+  border: 1px solid transparent;
 }
 
 /* Add a hover effect if you want */
@@ -165,8 +176,10 @@ p {
 
 @media (max-width: 480px) {
   .fa{
-  font-size: 16px;
-  margin: 30px 2px 0 2px;
+    font-size: 15px;
+  }
+  .fa-circle-o {
+    font-size: 12px;
   }
 }
 
@@ -183,7 +196,7 @@ p {
   display: inline-block;
   position: relative;
   overflow: hidden;
-   margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .section-title-divider {
@@ -211,19 +224,36 @@ p {
   text-decoration: none;
 }
 
-@media (max-width: 768px) {
-  .download-section {
-  padding-bottom: 20%;
-  }
-}
-
 footer {
   padding: 50px 0;
-    background: #000000;
-    background: linear-gradient(to bottom, rgba(255,0,0,0), rgba(255,0,0,0), rgba(255,0,0,0), rgba(255,0,0,.3));
+  background: linear-gradient(to bottom, rgba(255,0,0,0), rgba(255,0,0,0), rgba(255,0,0,0), rgba(255,0,0,.3));
 }
 footer p {
   margin: 0;
+}
+
+@media (max-width: 768px) {
+   .intro .intro-body .brand-heading {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  .section-title-divider {
+    width: 40px;
+    height: 1px;
+  }
+  .download-section {
+    padding-bottom: 20%;
+    padding-top: 1%;
+  }
+  .download-section a{
+    font-size: 13px;
+  }
+  footer .col-md-offset-2 a {
+    margin-top: 5px;
+  }
+  footer p {
+    font-size: 12px;
+  }
 }
 ::-moz-selection {
   text-shadow: none;
