@@ -251,9 +251,6 @@ footer p {
   footer .col-md-offset-2 a {
     margin-top: 5px;
   }
-  footer p {
-    font-size: 16px;
-  }
 }
 ::-moz-selection {
   text-shadow: none;

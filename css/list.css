@@ -1,0 +1,32 @@
+.fa-circle-o {
+  padding: 0;
+  margin: 8px 20px 0 0px;
+}
+
+.download-section {
+  padding: 20px 0 274px 0;
+}
+
+.download-section p {
+    margin: 0 0 10px;
+}
+
+.download-section .log {
+  color: #616161;
+}
+
+.collapse {
+  border: 1px solid #ffffff;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  padding: 10px 0 0 5px;
+  color: #37474F;
+}
+
+.log:hover {
+  color: #37474F;
+}
