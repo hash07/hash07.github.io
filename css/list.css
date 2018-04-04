@@ -22,10 +22,9 @@
   margin-right: auto;
 }
 
-ul {
-  padding: 10px 0 0 5px;
+li {
+  padding: 10px 10px 0 0;
   color: #37474F;
-  margin-left: 10px;
 }
 
 .log:hover {
