@@ -25,6 +25,7 @@
 ul {
   padding: 10px 0 0 5px;
   color: #37474F;
+  margin-left: 10px;
 }
 
 .log:hover {
